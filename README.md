@@ -22,26 +22,8 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
-## Usage
-```
-npm install
-```
-```
-node server
-```
-## Screenshots
-![Screenshot](/assets/images/main-menu.png)
-===================================================
-![Screenshot](/assets/images/view-departments.png)
-===================================================
-![Screenshot](/assets/images/add-role.png)
-===================================================
-
-## Walkthrough Video Link
-[Bleu's Employee Tracker Walkthrough Video](https://www.loom.com/share/a01adb813508499a831ca0f646ba7e1b)
-
 ## Technologies Used
-* Javascript, SQL
+* Javascript, HTML, CSS
 
 ## Repository
 * GitHub Repo: https://github.com/bleufox/BleusTeamProfileGenerator
