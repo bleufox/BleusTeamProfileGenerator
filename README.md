@@ -23,7 +23,7 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ## Technologies Used
-* Javascript, HTML, CSS
+* Javascript
 
 ## Repository
 * GitHub Repo: https://github.com/bleufox/BleusTeamProfileGenerator
