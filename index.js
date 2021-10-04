@@ -4,7 +4,7 @@ const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
 const Manager = require("./lib/manager");
 
-const employees = [];
+const teamMember = [];
 
 function initApp() {
     startHtml();
@@ -13,12 +13,12 @@ function initApp() {
 
 function addMember() {
     inquirer.prompt([{
-        message: "Enter team member's name",
+        message: "Please Enter the Team Member's Name",
         name: "name"
     },
     {
         type: "list",
-        message: "Select team member's role",
+        message: "Select a Role",
         choices: [
             "Engineer",
             "Intern",
@@ -27,7 +27,7 @@ function addMember() {
         name: "role"
     },
     {
-        message: "Enter team member's id",
+        message: "Please Enter the Team Member's ID",
         name: "id"
     },
     {
@@ -65,7 +65,7 @@ function addMember() {
                     } else {
                         newMember = new Manager(name, id, email, roleInfo);
                     }
-                    employees.push(newMember);
+                    teamMember.push(newMember);
                     addHtml(newMember)
                         .then(function () {
                             if (moreMembers === "yes") {
